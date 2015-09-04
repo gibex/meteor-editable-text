@@ -28,7 +28,7 @@
         <span title="{{title}}" class="editable-text {{class}} et-{{context._id}}">{{substitute}}</span>
       {{else}}
         {{#if isWysiwyg}}
-          <div class="wysiwyg-content"><div class="editable-text {{class}} et-{{context._id}}" title="{{title}}" style="{{style}}">{{wysiwygContent}}</div></div>
+          <div class="wysiwyg-content"><div class="editable-text {{class}} et-{{context._id}}" title="{{title}}" style="{{style}}"><pre class="help-block pre-block">{{{wysiwygContent}}}</pre></div></div>
         {{else}}
           <span class="editable-text {{class}} et-{{context._id}}" title="{{title}}">{{content}}</span>
         {{/if}}
