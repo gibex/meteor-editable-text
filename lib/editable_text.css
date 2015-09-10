@@ -1,4 +1,4 @@
-.wide-text-edit, .text-area-edit {
+.wide-text-edit, .text-area-edit {		
   margin:0;
   padding:0;
   border:0;
@@ -7,4 +7,8 @@
 
 .editable-text {
   cursor:default;    
+}
+
+.break-words {
+  word-break:break-word;
 }
