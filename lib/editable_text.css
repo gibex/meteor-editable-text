@@ -2,7 +2,14 @@
   margin:0;
   padding:0;
   border:0;
-  width:100%;
+  width:96%;
+}
+
+.wide-text-edit-small {
+  margin:0;
+  padding:0;
+  border:0;
+  width:4%;	
 }
 
 .editable-text {
