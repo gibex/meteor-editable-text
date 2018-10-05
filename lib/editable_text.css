@@ -2,14 +2,14 @@
   margin:0;
   padding:0;
   border:0;
-  width:96%;
+  width:93%;
 }
 
 .wide-text-edit-small {
   margin:0;
   padding:0;
   border:0;
-  width:4%;	
+  width:7%;	
 }
 
 .editable-text {
@@ -18,4 +18,19 @@
 
 .break-words {
   word-break:break-word;
+}
+
+.editable-text-save-button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.editable-text-save-button:hover {
+  background: #eee; 
 }

@@ -1,0 +1,8 @@
+<template name="editableCheckbox">
+	{{> editable_checkbox_widget context=context collection=collection field=field type=type checklistId=checklistId contentItemId=contentItemId}}
+</template>
+
+<template name="editable_checkbox_widget">
+	{{initOptions}} 
+	<input type="checkbox" {{checked}}>
+</template>
